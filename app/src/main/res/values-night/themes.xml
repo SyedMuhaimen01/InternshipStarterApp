@@ -1,7 +1,19 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
     <style name="Base.Theme.InternshipStarterApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="colorPrimary">@color/md_theme_dark_primary</item>
+        <item name="colorOnPrimary">@color/md_theme_dark_onPrimary</item>
+        <item name="colorSecondary">@color/md_theme_dark_secondary</item>
+        <item name="colorTertiary">@color/md_theme_dark_tertiary</item>
+        <item name="colorError">@color/md_theme_dark_error</item>
+        <item name="colorSurface">@color/md_theme_dark_surface</item>
+        <item name="colorOnSurface">@color/md_theme_dark_onSurface</item>
+        <item name="colorOnBackground">@color/md_theme_dark_onBackground</item>
+    </style>
+
+    <style name="Theme.InternshipStarterApp.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/md_theme_dark_primary</item>
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_app_logo</item>
+        <item name="windowSplashScreenIconBackgroundColor">@color/md_theme_dark_onPrimary</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.InternshipStarterApp</item>
     </style>
 </resources>

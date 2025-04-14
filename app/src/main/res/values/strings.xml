@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">InternshipStarterApp</string>
+    <string name="welcome_message">Welcome to Internship!</string>
+    <string name="hello_message">Hello, Android Developers!</string>
+    <string name="show_motivation_btn">Show Motivation</string>
+    <string name="motivation_dialog_box_title">Motivation</string>
+    <string name="quote_1">The only way to do great work is to love what you do.</string>
+    <string name="quote_2">Success is not the key to happiness. Happiness is the key to success.</string>
+    <string name="quote_3">The future belongs to those who believe in the beauty of their dreams.</string>
+    <string name="quote_4">Success usually comes to those who are too busy to be looking for it.</string>
+    <string name="quote_5">Don\'t watch the clock; do what it does. Keep going.</string>
 </resources>

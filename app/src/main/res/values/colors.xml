@@ -1,5 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!-- Base Colors -->
+    <color name="black">#000000</color> <!-- Pure black -->
+    <color name="white">#FFFFFF</color> <!-- Pure white -->
+    <color name="transparent">#00000000</color> <!-- Fully transparent -->
+
+    <!-- Light Theme Colors -->
+
+    <!-- Primary Colors -->
+    <color name="md_theme_light_primary">#1E88E5</color> <!-- Professional blue -->
+    <color name="md_theme_light_surface">#FFFFFF</color> <!-- Clean white surface -->
+    <color name="md_theme_light_background">#FAFAFA</color> <!-- Subtle off-white background -->
+    <color name="md_theme_light_surface_variant">#F5F5F5</color> <!-- Slightly darker surface variant -->
+    <color name="md_theme_light_outline">#DADADA</color> <!-- Soft gray outline -->
+
+    <!-- Text Colors -->
+    <color name="md_theme_light_onPrimary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="md_theme_light_onSurface">#212121</color> <!-- Dark text on surface -->
+    <color name="md_theme_light_onBackground">#424242</color> <!-- Medium gray text on background -->
+    <color name="md_theme_light_onSurfaceVariant">#616161</color> <!-- Gray text on secondary surfaces -->
+
+    <!-- Accent Colors -->
+    <color name="md_theme_light_secondary">#673AB7</color> <!-- Professional purple -->
+    <color name="md_theme_light_tertiary">#FF9800</color> <!-- Vibrant orange -->
+    <color name="md_theme_light_error">#D32F2F</color> <!-- Deep red for errors -->
+    <color name="md_theme_light_inversePrimary">#BBDEFB</color> <!-- Light blue for inverse primary -->
+    <color name="md_theme_light_warning">#FFC107</color> <!-- Warm amber for warnings -->
+    <color name="md_theme_light_shadow">#1F000000</color> <!-- Transparent black for shadows -->
+
+    <!-- Dark Theme Colors -->
+
+    <!-- Primary Colors -->
+    <color name="md_theme_dark_primary">#2196F3</color> <!-- Brighter blue for dark theme -->
+    <color name="md_theme_dark_surface">#1E1E1E</color> <!-- Dark gray surface -->
+    <color name="md_theme_dark_background">#121212</color> <!-- Very dark background -->
+    <color name="md_theme_dark_surface_variant">#2C2C2C</color> <!-- Slightly lighter surface variant -->
+    <color name="md_theme_dark_outline">#424242</color> <!-- Mid-gray outline -->
+
+    <!-- Text Colors -->
+    <color name="md_theme_dark_onPrimary">#FFFFFF</color> <!-- White text on primary -->
+    <color name="md_theme_dark_onSurface">#E0E0E0</color> <!-- Light gray text on surface -->
+    <color name="md_theme_dark_onBackground">#BDBDBD</color> <!-- Soft gray text on background -->
+    <color name="md_theme_dark_onSurfaceVariant">#A6A6A6</color> <!-- Light gray text on secondary surfaces -->
+
+    <!-- Accent Colors -->
+    <color name="md_theme_dark_secondary">#7C4DFF</color> <!-- Bright purple accent -->
+    <color name="md_theme_dark_tertiary">#FFAB40</color> <!-- Warm orange accent -->
+    <color name="md_theme_dark_error">#CF6679</color> <!-- Softer red for errors in dark mode -->
+    <color name="md_theme_dark_inversePrimary">#4FC3F7</color> <!-- Cyan for inverse primary -->
+    <color name="md_theme_dark_warning">#FFD740</color> <!-- Bright yellow for warnings -->
+    <color name="md_theme_dark_shadow">#1F000000</color> <!-- Transparent black for shadows -->
 </resources>
